@@ -1,0 +1,14 @@
+{
+    "name": "RhodeIsland.mbtiles",
+    "description": "RhodeIsland.mbtiles",
+    "version": "2",
+    "minzoom": "0",
+    "maxzoom": "12",
+    "center": "-71.411133,41.804070,12",
+    "bounds": "-71.862370,41.147808,-71.121133,42.018642",
+    "type": "overlay",
+    "format": "pbf",
+    "generator": "tippecanoe v1.36.0",
+    "generator_options": "tippecanoe -zg -o RhodeIsland.mbtiles --drop-densest-as-needed --extend-zooms-if-still-dropping RhodeIsland.geojson",
+    "json": "{\"vector_layers\": [ { \"id\": \"RhodeIsland\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 12, \"fields\": {} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"RhodeIsland\",\"count\": 366779,\"geometry\": \"Polygon\",\"attributeCount\": 0,\"attributes\": []}]}}"
+}
