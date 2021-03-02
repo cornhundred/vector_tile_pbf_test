@@ -1,0 +1,14 @@
+{
+    "name": "RhodeIslandDC.mbtiles",
+    "description": "RhodeIslandDC.mbtiles",
+    "version": "2",
+    "minzoom": "0",
+    "maxzoom": "13",
+    "center": "-71.433105,41.820453,13",
+    "bounds": "-71.862370,41.147808,-71.121133,42.018642",
+    "type": "overlay",
+    "format": "pbf",
+    "generator": "tippecanoe v1.36.0",
+    "generator_options": "tippecanoe -zg -o RhodeIslandDC.mbtiles --drop-densest-as-needed --extend-zooms-if-still-dropping --no-tile-compression RhodeIsland.geojson",
+    "json": "{\"vector_layers\": [ { \"id\": \"RhodeIsland\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 13, \"fields\": {} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"RhodeIsland\",\"count\": 366779,\"geometry\": \"Polygon\",\"attributeCount\": 0,\"attributes\": []}]}}"
+}
